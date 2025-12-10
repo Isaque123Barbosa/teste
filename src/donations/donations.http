@@ -7,8 +7,8 @@ Content-Type: application/json
     "date": "2025-10-04",
     "donatorCpf": "123.456.789-10",
     "donatorPhone": "99999-9999",
-    "donatorCep": "12345-678",
-    "institutionId": "inst_JHSJKAGDJKAHSKJHAÇLFA"
+    "typePayment": "Pix",
+    "institutionId": "inst_VFVs6Ftn7dklAIsUeW5tn"
 }
 
 ###SDHAUKDGAKDH

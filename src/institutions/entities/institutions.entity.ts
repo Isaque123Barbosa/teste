@@ -9,6 +9,9 @@ export class Institution {
     id: string;
 
     @Column()
+    urlImage: string;
+
+    @Column()
     institutionName: string;
 
     @OneToMany(() => Donation, donation => donation.institution)

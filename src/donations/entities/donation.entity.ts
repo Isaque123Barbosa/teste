@@ -24,11 +24,10 @@ export class Donation {
     donatorPhone: string;
 
     @Column()
-    donatorCep: string;
+    typePayment: string;
 
     @Column()
     institutionId: string;
-
 
     @ManyToOne(() => Institution, institution => institution.donations)
 

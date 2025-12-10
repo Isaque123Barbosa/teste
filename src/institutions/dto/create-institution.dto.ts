@@ -5,4 +5,7 @@ export class CreateInstitutionDto {
 
     @IsString()
     institutionName: string;
+
+    @IsString()
+    urlImage: string;
 }

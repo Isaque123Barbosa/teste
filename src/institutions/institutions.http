@@ -2,7 +2,8 @@ POST http://localhost:3000/institutions/
 Content-Type: application/json
 
 {
-    "institutionName": "Test"
+    "institutionName": "Test",
+    "urlImage" : "https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize%2F2011%2F10%2F20%2F10%2FWDL-Logo-8220_6769_041548127_343934772.jpg"
 }
 
 ###SDHAUKDGAKDH
