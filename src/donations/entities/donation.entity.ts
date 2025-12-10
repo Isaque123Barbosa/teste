@@ -12,6 +12,9 @@ export class Donation {
     donatorName: string;
 
     @Column()
+    donatorEmail: string;
+
+    @Column()
     amount: number;
 
     @Column()

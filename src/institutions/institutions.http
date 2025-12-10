@@ -2,11 +2,12 @@ POST http://localhost:3000/institutions/
 Content-Type: application/json
 
 {
-    "institutionName": "Test",
-    "urlImage" : "https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize%2F2011%2F10%2F20%2F10%2FWDL-Logo-8220_6769_041548127_343934772.jpg"
+    "institutionName": "Emilly Mayara INDIO-ONG",
+    "urlImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdgHjPfPR117BEONZf9EfO2Oi9x2zBLiW-Dw&s"
 }
 
 ###SDHAUKDGAKDH
 GET http://localhost:3000/institutions
 
 ###
+DELETE http://localhost:3000/institutions/inst_eOgZx-VAf_YbnIDJCiC-6

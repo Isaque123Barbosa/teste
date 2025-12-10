@@ -7,6 +7,10 @@ export class CreateDonationDto {
     @IsNotEmpty({ message: 'O nome do doador é obrigatório.' })
     @IsString()
     donatorName: string;
+
+    @IsNotEmpty({ message: 'O email do doador é obrigatório.' })
+    @IsString()
+    donatorEmail: string;
     
     @IsNotEmpty({ message: 'O valor da doação é obrigatório.' })
     @IsNumber({}, { message: 'O valor da doação deve ser um número.' })
